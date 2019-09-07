@@ -1,0 +1,14 @@
+.intro-header {
+    color: #333;
+    font-size: 1.75rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.intro-description {
+    margin-top: .8rem;
+    color: #888;
+    font-size: 1.35rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
