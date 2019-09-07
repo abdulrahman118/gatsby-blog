@@ -9,3 +9,9 @@
 .mail-link:hover {
     color: #02C54C;
 }
+
+@media screen and (max-width: 768px) {
+    ul {
+        width: 100% !important;
+    }
+}
