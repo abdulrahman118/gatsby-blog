@@ -26,13 +26,11 @@ var options = {
   autoMatchOsTheme: true // default: true
 }
 
-const darkmode = new Darkmode(options);
-
 const Layout = ({ children }) => {  
 
   return (
     <>
-      {darkmode.showWidget()}
+      {new Darkmode(options).showWidget()}
       <NavBar />      
       <div
         style={{
