@@ -41,7 +41,7 @@ const NavBar = () => {
         <li><NavLinkExternal className="github-link" target="blank" href="https://github.com/abdulrahman118">GitHub</NavLinkExternal></li>
         <li><NavLinkExternal className="twitter-link" target="blank" href="https://twitter.com/dev_abdu">Twitter</NavLinkExternal></li>
         <li><NavLinkExternal className="medium-link" target="blank" href="https://medium.com/@abdul_rahman">Medium</NavLinkExternal></li>
-        <li><NavLinkExternal className="mail-link" href="mailto:abdul@abdul-rahman.info">Email</NavLinkExternal></li>
+        <li><NavLinkExternal className="mail-link" href="mailto:developer.abdulrahman@gmail.com">Email</NavLinkExternal></li>
       </NavListRight>
     </BlogNavBar>
 
