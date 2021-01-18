@@ -75,11 +75,12 @@ export default BlogPostTemplate;
 
 export const query = graphql`
 query($slug: String!){
-    markdownRemark(fields:{slug:{eq:$slug}}){
+    markdownRemark(frontmatter:{slug:{eq:$slug}}){
         html
         frontmatter{
             title,
-            date
+            date,
+            slug
         }
     }
 }
