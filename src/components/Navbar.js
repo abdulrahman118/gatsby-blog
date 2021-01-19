@@ -50,17 +50,8 @@ const NavBar = () => {
           >
             GitHub
           </NavLinkExternal>
-        </li>
-        <li>
-          <NavLinkExternal
-            className="twitter-link"
-            target="blank"
-            href="https://twitter.com/dev_abdu"
-          >
-            Twitter
-          </NavLinkExternal>
-        </li>
-        <li>
+        </li>        
+        {/* <li>
           <NavLinkExternal
             className="medium-link"
             target="blank"
@@ -68,15 +59,7 @@ const NavBar = () => {
           >
             Medium
           </NavLinkExternal>
-        </li>
-        <li>
-          <NavLinkExternal
-            className="mail-link"
-            href="mailto:developer.abdulrahman@gmail.com"
-          >
-            Email
-          </NavLinkExternal>
-        </li>
+        </li>         */}
         <li>
           <NavLink to="/contact">Contact</NavLink>
         </li>

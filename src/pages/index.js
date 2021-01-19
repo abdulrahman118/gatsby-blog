@@ -9,7 +9,10 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <SEO title="Home" />
-      <Header siteTitle={data.allSite.nodes[0].siteMetadata.title} />
+      <Header
+        siteTitle={data.allSite.nodes[0].siteMetadata.title}
+        description={data.allSite.nodes[0].siteMetadata.current}
+      />
     </Layout>
   )
 }
@@ -21,6 +24,7 @@ export const query = graphql`
       nodes {
         siteMetadata {
           title
+          current
         }
       }
     }
