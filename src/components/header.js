@@ -2,7 +2,7 @@ import PropTypes from "prop-types"
 import React from "react"
 import "./header.css"
 
-const Header = ({ siteTitle }) => (
+const Header = ({ siteTitle, description }) => (
   <header
     style={{
       background: `transparent`,
@@ -20,7 +20,7 @@ const Header = ({ siteTitle }) => (
       <h1 className="intro-header" style={{ margin: 0 }}>        
           {siteTitle}                
         <div className="intro-description">
-          Software Engineer currently working in Chennai, India
+          {description}
         </div>
       </h1>
     </div>
