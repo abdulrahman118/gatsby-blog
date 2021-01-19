@@ -1,4 +1,5 @@
 ---
+slug: "/blog/how-internet-works"
 title: 'How Internet Works'
 date: '2019-09-7'
 description: 'Underneath the Internet'
