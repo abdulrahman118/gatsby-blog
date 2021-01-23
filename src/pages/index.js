@@ -30,7 +30,7 @@ const IndexPage = ({ data }) => {
               undestanding in SQL too. I created this website after learning
               fundamentals of React.
             </em>
-          </p>
+          </p>                              
           <p><em><q>What we know is a drop, what we don't know is an ocean.</q></em></p>
           <p><em><q>Wherever you are, whatever you do, be in love.</q></em></p>
         </div>

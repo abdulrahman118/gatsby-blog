@@ -6,7 +6,7 @@ import "./Navbar.css"
 
 const BlogNavBar = styled.nav`
   background: transparent;
-  height: 10vh;
+  height: 9vh;
   border-bottom: 1px solid #e8e8e8;
   font-size: 0.9rem;
 `
@@ -41,6 +41,9 @@ const NavBar = () => {
         </li>
         <li>
           <NavLink to="/blog">Blog</NavLink>
+        </li>
+        <li>
+          <NavLink to="/resources">Resources</NavLink>
         </li>
         <li>
           <NavLinkExternal
