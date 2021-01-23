@@ -43,11 +43,11 @@ const Layout = ({ children }) => {
         <main>{children}</main>
         <footer>
           <p>
-          © {new Date().getFullYear()} Abdul Rahman, Built with
-          {` `}
+          © {new Date().getFullYear()} Abdul Rahman, Built with {" "}
+          {`❤️`}
           <a style={{
             textDecoration:`none`
-          }} target="blank" href="https://www.gatsbyjs.org">Gatsby</a>
+          }} target="blank" href="https://www.gatsbyjs.org"> Gatsby</a>
           </p>
         </footer>
       </div>
