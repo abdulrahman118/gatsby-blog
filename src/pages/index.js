@@ -14,9 +14,11 @@ const IndexPage = ({ data }) => {
         siteTitle={data.allSite.nodes[0].siteMetadata.title}
         description={data.allSite.nodes[0].siteMetadata.current}
       />
-      <div className="my-photo">
+      <div className="home-container">
+        <div className="my-photo">
         <MyPhoto />
-        <div className="home-content" style={{fontSize:"large"}}>
+        </div>
+        <div className="home-content">
           <p>
             <em>
               Working as a .NET full stack software engineer for the last{" "}
