@@ -714,14 +714,9 @@ pre tt:after {
   content: "";
 }
 
-@media only screen and (max-width: 480px) {
-  html {
-    font-size: 100%;
-  }
-}
 
-footer {
-  position: fixed;
+
+footer {  
   bottom: 0;
   left: 0;
   width: 100%;
@@ -729,4 +724,33 @@ footer {
   text-align: center;
   margin-top: 2rem;
   margin-bottom: 1rem;
+}
+
+.my-photo div{
+  display: inline-block;
+}
+
+.my-photo > div:first-child{
+  width: 40%;
+  float: left;
+}
+
+.my-photo > div img{
+  border-radius: 50%;
+}
+
+.home-content{
+  width: 60%;  
+}
+
+/* .my-photo:after {
+  display: block;
+  content: '';
+  height: 60px;
+} */
+
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 100%;
+  }
 }
