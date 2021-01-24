@@ -9,6 +9,7 @@ const BlogNavBar = styled.nav`
   height: 9vh;
   border-bottom: 1px solid #e8e8e8;
   font-size: 0.9rem;
+  box-shadow: 0px 1px 7px -1px grey;
 `
 const NavLink = styled(Link)`
   text-decoration: none;
@@ -34,7 +35,7 @@ const NavListRight = styled.ul`
 
 const NavBar = () => {
   return (
-    <BlogNavBar>
+    <BlogNavBar className="nav-home">
       <NavListRight>
         <li>
           <NavLink to="/">Home</NavLink>

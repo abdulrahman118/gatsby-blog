@@ -58,14 +58,14 @@ const BlogPostTemplate = ({ data, pageContext }) => {
         >
           <li>
             {previous && (
-              <NavLink to={previous.fields.slug} rel="prev">
+              <NavLink to={previous.frontmatter.slug} rel="prev">
                 ← {previous.frontmatter.title}
               </NavLink>
             )}
           </li>
           <li>
             {next && (
-              <NavLink to={next.fields.slug} rel="next">
+              <NavLink to={next.frontmatter.slug} rel="next">
                 {next.frontmatter.title} →
               </NavLink>
             )}
