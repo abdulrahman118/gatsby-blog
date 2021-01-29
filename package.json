@@ -25,6 +25,7 @@
     "styled-components": "^4.4.1"
   },
   "devDependencies": {
+    "gatsby-remark-code-buttons": "^2.0.4",
     "prettier": "^1.19.1"
   },
   "keywords": [

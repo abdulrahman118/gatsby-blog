@@ -31,6 +31,13 @@ module.exports = {
               maxWidth: 800,
             },
           },
+          {
+            resolve: `gatsby-remark-code-buttons`,
+            options: {
+              tooltipText: `copy`,
+              toasterText: 'copied',
+            },
+          }        
         ],
       },
     },    
